@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Complete Website</title>
+    <link rel="Stylesheet" type="text/css"  href="main.css"/>
+    <link rel="stylesheet" type="text/css"
+     href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" />  
+</head>
+        <body>
+            <header>
+                <div>
+                <nav>
+                    <div class="logo">
+                        Photo<span>pi</span>X
+                    </div>
+                    <div class="menu">
+                        <a href="#"> Home </a>
+                        <a href="#"> About </a>
+                        <a href="http://127.0.0.1:5500/image/Gallery.html"> Gallery </a>
+                        <a href="http://127.0.0.1:5500/contact.html"> Contact us</a>
+                    </div>
+                       <div class="icon">
+                        <i class="fa fa-search-plus"></i>
+                        <a href="#">Login</a>
+                    </div>
+                </nav>
+                <section class="h-text">
+                    <i class="fa fa-camera" id="camera"></i>
+                    <h1>Capturing the moments that captivate your heart</h1>
+                    <input type="text" name="" placeholder="Search here.....">
+                    <button><i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+            </section>
+            </header>
+            <section class="filter-gallery">
+                <div class="portfolio-menu">
+                    <ul>
+                        <li class="active" data-filter="*">All</li>
+                        <li data-filter=".flower">Flower</li>
+                        <li data-filter=".game">Game</li>
+                        <li data-filter=".animal">Animal</li>
+                        <li data-filter=".nature">Nature</li>
+                    </ul>
+                </div>
+                <div class="portfolio-item">
+                    <div class="item flower">
+                        <img src="image/imgp1.jpeg" width="250" height="250">
+                    </div>
+                    <div class="item game">
+                        <img src="image/imgp2.jpeg" width="250" height="250">
+                    </div>
+                    <div class="item animal">
+                        <img src="image/imgp3.jpeg" width="250" height="250">
+                    </div>
+                    <div class="item nature">
+                        <img src="image/imgp4.jpeg" width="200" height="250">
+                    </div>
+                    <div class="item flower">
+                        <img src="image/imgp5.jpg" width="250" height="250">
+                    </div>
+                    <div class="item game">
+                        <img src="image/imgp6.jpeg" width="250" height="250">
+                    </div>
+                    <div class="item animal">
+                        <img src="image/imgp7.jpeg" width="250" height="250">
+                    </div>
+                    <div class="item nature">
+                        <img src="image/imgp8.jpeg" width="250" height="250">
+                    </div>
+                    <div class="item flower">
+                        <img src="image/imgp9.jpg" width="250" height="250">
+                    </div>
+                    <div class="item game">
+                        <img src="image/imgp10.jpeg" width="250" height="250">
+                    </div>
+                    <div class="item animal">
+                        <img src="image/imgp11.jpeg" width="250" height="250">
+                    </div>
+                    <div class="item nature">
+                        <img src="image/imgp12.jpeg" width="250" height="250" >
+                    </div>
+                </div>
+            </section>
+              <section class="member">
+                <div class="member-info">
+                    <h1>Our<span>Informations</span></h1>
+                    <p>What our member says</p>
+                </div>
+                <div class="member-card">
+                    <img src="image/imgmember.jpg" width="250" height="250">
+                    <p>
+                      from Rajasthan,doing gym is good for healthy life.it helps
+                      our body to fit.it release stress from our mind.from 
+                      Rajasthan,doing gym is good for healthy life.it helps our
+                     body to fit.it release stress from our mind.
+                    </p>
+                    <h2>*Susan joshi</h2>
+                    <img src="image/img.icon1.png" width="100">
+                    <img src="image/img.icon2.jpg" width="100">
+                    <img src="image/img.icon3.png" width="100">
+                    <img src="image/img.icon4.png" width="100">
+                </div>
+                <div class="m-images">
+                    <img  src="image/imgs1.jpg" >
+                    <img  src="image/imgs2.jpg" >
+                    <img  src="image/imgs3.jpg" >
+                    <img  src="image/imgs4.jpg" >
+                    <img  src="image/imgs5.jpg" >
+                    <img  src="image/imgs6.jpg" >
+                </div>
+              </section>
+              <footer>
+                <div class="newsletter">
+                    <div>
+                        <h2>Subscribe our newsletter</h2>
+                        <p>We are a team of non-cynics who truly care for our work</p>
+                    </div>
+                    <div class="ntext">
+                    <label>
+                        <input type="text" name="" placeholder="Enter your email">
+                        <button>Subscribe</button>
+                    </label>
+                    </div>
+                </div>
+                <div class="f-contact">
+                    <div><strong>
+                        Informations</strong>
+                    <p>Goole</p>
+                    <p>You tube</p>
+                </div>  
+                    <div>
+                        Links 
+                        <p>About us</p>
+                        <p>Gallery</p>
+                    </div>  
+                    <div>
+                        Details
+                        <p>Photographs</p>
+                        <p>About</p>
+                    </div>  
+                    <div>
+                        Help and Support
+                        <p>Team & condition</p>
+                        <p>Customer care</p>
+                    </div>  
+                </div>
+              </footer>
+            <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" 
+            crossorigin="anonymous">
+            </script>
+            <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js">
+            </script>
+            <script type="text/javascript">
+                $('.portfolio-item').isotope({
+                 // options
+                 itemSelector: '.item',
+                  layoutMode: 'fitRows'
+                 });
+                 
+                 $('.portfolio-menu ul li').click(function(){
+                 $('.portfolio-menu ul li').removeClass('active');
+                 $(this).addClass('active');
+
+                   var selector = $(this).attr('data-filter');
+                   $('.portfolio-item').isotope({
+                    filter:selector
+                   });
+                   return false;
+                 });
+
+
+            </script>
+        </body>
+</html>

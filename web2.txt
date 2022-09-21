@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact us</title>
+    <link rel="Stylesheet" type="text/css"  href="main.css"/>
+    </head>
+    <body>
+        <section>
+            <h1>Contact Us</h1>
+            <input type="text" name="" placeholder="first name">
+            <input type="text" name="" placeholder="middle name">
+            <input type="text" name="" placeholder="last name">
+            <br>
+           <input type="text" name="" placeholder ="Mobile no">
+            <input type="text" name="" placeholder="Email">
+            <br>
+            <input type="text" name="" placeholder="Address">
+            <br>
+            <input type="text" name="" placeholder="Subject">
+            <input type="text" name="" placeholder="Priority">
+            <br>
+
+            <input type="text" name="" placeholder="send"> 
+
+        </section>
+    </body>
